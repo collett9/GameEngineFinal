@@ -146,6 +146,7 @@ void game::gameObjectsCollide()
 	if (physics->listener.data1 == playerId && gameObjectsVector[physics->listener.data2]->whatType == gameObject::Door)
 	{
 		door* newDoor = (door*)gameObjectsVector[physics->listener.data2];
+		serverGame.giveLevel("../Levels/level0.png");
 		levelSetup(15, 15, newDoor->whereDoorLeads);
 
 	}
@@ -153,6 +154,7 @@ void game::gameObjectsCollide()
 	else if (physics->listener.data2 == playerId && gameObjectsVector[physics->listener.data1]->whatType == gameObject::Door)
 	{
 		door* newDoor = (door*)gameObjectsVector[physics->listener.data1];
+		serverGame.giveLevel("../Levels/level0.png");
 		levelSetup(15, 15, newDoor->whereDoorLeads);
 
 	}

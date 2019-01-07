@@ -387,15 +387,15 @@ void game::update()
 
 	}
 
-	if (networkConnection.newStage != NULL)
-	{
-		//"../Levels/level0.png"
-		string temp = "../Levels/level" + *networkConnection.newStage;
-		string temp2 = temp + ".png";
-		levelSetup(15, 15, temp2);
-		networkConnection.newStage = nullptr;
+	//if (networkConnection.newStage != NULL)
+	//{
+	//	//"../Levels/level0.png"
+	//	string temp = "../Levels/level" + *networkConnection.newStage;
+	//	string temp2 = temp + ".png";
+	//	levelSetup(15, 15, temp2);
+	//	delete[]networkConnection.newStage;
 
-	}
+	//}
 	
 	
 	//serverGame.serverUpdate();

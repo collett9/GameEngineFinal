@@ -14,7 +14,7 @@ private:
 
 public:
 	Vector2 * newPosition = nullptr;
-	int* newStage = nullptr;
+	char newStage[25] = "aaaaaaaaaaaaaaaaaaaaaaaa";
 
 	ENetAddress address;
 	ENetHost* client;

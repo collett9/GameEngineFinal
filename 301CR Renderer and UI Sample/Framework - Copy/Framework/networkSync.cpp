@@ -51,9 +51,9 @@ void networkSync::networkUpdate()
 				cout << newPosition->x << "," << newPosition->y << "\n";
 			}
 
-			if (enetEvent.packet->dataLength == sizeof(std::string))
+			if (enetEvent.packet->dataLength == sizeof(char[22]))
 			{
-				newStage = new int;
+				
 				cout << "Level Change Packet recieved\n";
 				memcpy(newStage, enetEvent.packet->data, enetEvent.packet->dataLength);
 

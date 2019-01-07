@@ -24,6 +24,8 @@ public:
 
 	Vector2* newPosition = nullptr;
 
+	//char* egg[];
+
 
 
 
@@ -31,6 +33,7 @@ public:
 	void killServer();
 
 	void givePosition(float x, float y);
+	void giveLevel(char fileNameToUse[22]);
 
 	serverClient();
 	~serverClient();

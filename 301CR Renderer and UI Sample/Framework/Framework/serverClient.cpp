@@ -65,6 +65,13 @@ void serverClient::givePosition(float x, float y)
 
 }
 
+void serverClient::giveLevel(char fileNameToUse[22])
+{
+	dataPacket = enet_packet_create(&fileNameToUse, sizeof(fileNameToUse), ENET_PACKET_FLAG_RELIABLE);
+	enet_host_broadcast(server, 0, dataPacket);
+
+}
+
 serverClient::serverClient()
 {
 	if (enet_initialize() != 0)

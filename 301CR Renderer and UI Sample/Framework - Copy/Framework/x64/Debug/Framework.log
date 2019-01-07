@@ -1,21 +1,8 @@
-﻿  GUI.cpp
-  audioEvent.cpp
-  audioSystem.cpp
-  eventMove.cpp
-  game.cpp
-c:\users\liamc\documents\github\gameenginempclient\301cr renderer and ui sample\framework - copy\framework\game.cpp(212): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\users\liamc\documents\github\gameenginempclient\301cr renderer and ui sample\framework - copy\framework\game.cpp(220): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-c:\users\liamc\documents\github\gameenginempclient\301cr renderer and ui sample\framework - copy\framework\game.cpp(298): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\users\liamc\documents\github\gameenginempclient\301cr renderer and ui sample\framework - copy\framework\game.cpp(304): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-c:\users\liamc\documents\github\gameenginempclient\301cr renderer and ui sample\framework - copy\framework\game.cpp(341): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\users\liamc\documents\github\gameenginempclient\301cr renderer and ui sample\framework - copy\framework\game.cpp(369): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
-  gameEvent.cpp
-  gameObject.cpp
-  inputHandler.cpp
-c:\users\liamc\documents\github\gameenginempclient\301cr renderer and ui sample\framework - copy\framework\inputhandler.cpp(55): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
-  level.cpp
-  main.cpp
-  physicsSync.cpp
-  Generating Code...
-c:\users\liamc\documents\github\gameenginempclient\301cr renderer and ui sample\framework - copy\framework\inputhandler.cpp(60): warning C4715: 'inputHandler::whichKey': not all control paths return a value
-  Framework.vcxproj -> C:\Users\liamc\Documents\GitHub\gameEngineMPClient\301CR Renderer and UI Sample\Framework - Copy\x64\Debug\Framework.exe
+﻿  game.cpp
+c:\users\liamc\documents\github\gameenginefinal\301cr renderer and ui sample\framework - copy\framework\game.cpp(212): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\liamc\documents\github\gameenginefinal\301cr renderer and ui sample\framework - copy\framework\game.cpp(220): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\liamc\documents\github\gameenginefinal\301cr renderer and ui sample\framework - copy\framework\game.cpp(298): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\liamc\documents\github\gameenginefinal\301cr renderer and ui sample\framework - copy\framework\game.cpp(304): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\liamc\documents\github\gameenginefinal\301cr renderer and ui sample\framework - copy\framework\game.cpp(341): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\liamc\documents\github\gameenginefinal\301cr renderer and ui sample\framework - copy\framework\game.cpp(369): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+  Framework.vcxproj -> C:\Users\liamc\Documents\GitHub\GameEngineFinal\301CR Renderer and UI Sample\Framework - Copy\x64\Debug\Framework.exe
